@@ -1,0 +1,61 @@
+html, body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color: #7D7987;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    color:#000000;
+    font-weight: 700;
+}
+h2 {
+    font-size: 36px;
+}
+p {
+    font-weight: 300; 
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.top-navigation a {
+  color:#7D7987;
+}
+.top-navigation a:hover {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.top-navigation a.active {
+    font-weight: 700;
+    color:#000000;
+}
+.top-section h1 {
+    font-size: 48px;
+}
+.top-section h4 {
+    font-weight: 300;
+    font-size: 21px;
+}
+.services p {
+    font-size: 16px;
+}
+p.description {
+    font-size: 18px;
+}
+.services h3 {
+    font-size: 24px;
+}
+.articles h3 {
+    font-size: 21px;
+}
+footer {
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #FFF;
+}
+footer h3,
+footer a {
+    color:#FFF;
+}
+footer a {
+    font-weight: 300;
+}
