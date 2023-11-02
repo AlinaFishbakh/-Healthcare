@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
   </head>
   <body>
     <header>
@@ -28,7 +30,8 @@
       </nav>
     </header>
     <section class="top-section">
-      <div>
+      <div class="fixed-dots"></div>
+      <div class="top-section-content">
         <h1>Virtual healthcare for you</h1>
         <h4>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</h4>
         <button type="button">Consult today</button>
@@ -104,6 +107,50 @@
         </button>
       </div>
       <img src="/img/trafalgar-sec03.png" alt="" />
+    </section>
+    <section class="slider">
+      <div>
+        <h2>What our customers are saying</h2>
+        <div>
+          <img src="/img/manimage.png" alt="" />
+          <h3>Edward Newgate</h3>
+          <p>Founder Circles</p>
+        </div>
+        <div>
+          <p>
+            “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no
+            tedeous form, long calls, or administrative hassle) and securely”
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>What our customers are saying</h2>
+        <div>
+          <img src="/img/manimage.png" alt="" />
+          <h3>Edward Newgate</h3>
+          <p>Founder Circles</p>
+        </div>
+        <div>
+          <p>
+            “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no
+            tedeous form, long calls, or administrative hassle) and securely”
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>What our customers are saying</h2>
+        <div>
+          <img src="/img/manimage.png" alt="" />
+          <h3>Edward Newgate</h3>
+          <p>Founder Circles</p>
+        </div>
+        <div>
+          <p>
+            “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no
+            tedeous form, long calls, or administrative hassle) and securely”
+          </p>
+        </div>
+      </div>
     </section>
     <section class="articles">
       <h2>Check out our latest article</h2>
@@ -197,5 +244,19 @@
         </nav>
       </div>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".slider").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
+      });
+    </script>
   </body>
 </html>
