@@ -70,6 +70,7 @@ header {
     font-size: 21px;
     margin-top: 25px;
     margin-bottom: 45px;
+    line-height: 32px;
 }
 .top-section-content {
     padding-top: 106px;
@@ -89,15 +90,141 @@ header {
     border: none;
 }
 
+.heading-underline:after {
+    content: '';
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background: #000;
+    display: block;
+    margin: 26px auto 33px auto;
+}
+
+.services h2 {
+  text-align: center; 
+  margin-top: 192px; 
+}
 .services p {
     font-size: 16px;
 }
+.services p.description {
+    text-align: center;
+    width: 952px;
+    margin: 0 auto 0 auto;
+}
 p.description {
     font-size: 18px;
+    line-height: 30px;
 }
 .services h3 {
     font-size: 24px;
 }
+.services-container {
+    padding: 80px 240px 0 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: url(./img/bgelement.png) no-repeat;
+    background-position-y: -172px;
+    position: relative;
+}
+.service-card {
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    padding: 46px 45px 45px 39px;
+    box-sizing: border-box;
+    margin-bottom: 37px;
+}
+.img-height {
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.service-card p {
+    line-height: 28px;
+}
+.service-dots {
+    background: url(./img/servicedots.png);
+    position: absolute;
+    width: 132px;
+    height: 115px;
+    right: 190px;
+    top: 370px;
+    z-index: -1;
+}
+.learn-more {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    background: none;
+    color: #458FF6;
+    margin: 35px auto 0;
+    display: block;
+}
+
+.providers {
+    padding: 220px 192px 0 135px;
+    display: flex;
+}
+.providers img {
+    margin-right: 142px;
+}
+.providers .heading-underline:after {
+    margin-left: 0;
+}
+.providers h2{
+    margin-top: 57px;
+}
+.providers .learn-more {
+    margin-left: 0;
+    margin-top: 40px;
+}
+.providers p{
+    width: 410px;
+}
+.download-apps {
+    padding: 229px 164px 0 280px;
+    display: flex;
+}
+.download-apps img {
+    margin-left: 71px;
+}
+.download-apps h2 {
+    margin-top: 36px;
+}
+.download-apps .heading-underline:after {
+    margin-left: 0;
+}
+.download-apps p {
+    width: 380px;
+    margin-bottom: 0;
+}
+.download-apps button {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    background: none;
+    color: #458FF6;
+    margin: 40px auto 0;
+}
+
+
 .articles h3 {
     font-size: 21px;
 }
