@@ -296,9 +296,34 @@ p.description {
 .slide-image img {
     margin-right: 30px;
 }
+.slider-wrapper {
+    position: relative;
+}
+.first-dots {
+    background: url(/img/sliderelement.png);
+    position: absolute;
+    top: -15px;
+    right: 195px;
+    z-index: 1;
+    width: 131.581px;
+    height: 115px;
+}
+.second-dots {
+    background: url(/img/secondslideelement.png);
+    position: absolute;
+    bottom: 39px;
+    left: 191px;
+    width: 131.581px;
+    height: 115px;
+
+}
 
 .articles {
     margin-top: 254px;
+    background: url(/img/articlevector.png) no-repeat;
+    background-position-y: 80px;
+    background-position-x: 100%;
+    position: relative;
 }
 .articles h2 {
     text-align: center;
@@ -324,12 +349,13 @@ p.description {
 .article-card {
     margin-top: 37px;
     width: 350px;
-    height: 512px;
+    min-height: 512px;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
     margin-left: 35px;
-    overflow: hidden;  
+    overflow: hidden; 
+    z-index: 1; 
 }
 .article-card:first-child {
     margin-left: 0;
@@ -348,21 +374,65 @@ p.description {
 .articles .learn-more {
     margin-top: 72px;
 }
+.article-dots {
+    left: 185px;
+    top: 95px;
+    width: 131.581px;
+    height: 115px;
+    background: url(/img/articledots.png);
+    position: absolute;
+}
+
 
 
 footer {
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     color: #FFF;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 118px 190px 113px;
+    position: relative;
+}
+footer p.description {
+    width: 390px;
+}
+
+.rights {
+    font-size: 16px;
 }
 footer h3,
 footer a {
     color:#FFF;
 }
+
 footer a {
     font-weight: 300;
+    line-height: 38px;
+
 }
 
 footer ul {
     margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+.first-element {
+    background: url(/img/footerelement.png);
+    position: absolute;
+    top: -70px;
+    right: 92px;
+    z-index: 1;
+    width: 131.581px;
+    height: 115px;
+}
+.second-element {
+    background: url(/img/footersecondel.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 113px;
+    height: 96px;
+    
+
 }
